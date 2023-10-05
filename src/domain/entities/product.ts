@@ -4,6 +4,8 @@ import { Optional } from '@/core/types/optional'
 
 interface ProductProps {
   name: string
+  size: string
+  color: string
   minimumStockLevel: number
   stockBalance: number
   createdAt: Date

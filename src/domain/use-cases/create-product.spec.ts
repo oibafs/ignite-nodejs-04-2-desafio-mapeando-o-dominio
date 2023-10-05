@@ -17,6 +17,8 @@ test('create a product', async () => {
 
   const product = await createProductUseCase.execute({
     name: 'Novo produto',
+    size: 'L',
+    color: 'green',
     minimumStockLevel: 100,
   })
 
